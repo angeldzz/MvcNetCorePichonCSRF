@@ -1,6 +1,7 @@
 ﻿﻿<h1>Listado de productos</h1>
 
 <form method="post">
+	@Html.AntiForgeryToken()
 	<label>Dirección de envio</label>
 	<input type="text" name="direccion" />
 	<button class="btn btn-warning">Realizar pedido</button>
